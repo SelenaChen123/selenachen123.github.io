@@ -1,10 +1,37 @@
-body {
-  margin: 0;
-  font-family: serif;
-  text-align: center;
+* {
+  box-sizing: border-box;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
-code {
-  font-family: monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  clear: both;
+  font-family: "Inter", sans-serif;
+  font-size: min(1em, 2vw);
+  line-height: min(1.5em, 3vw);
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar:hover {
+  height: 16px;
+  width: 16px;
 }
