@@ -1,3 +1,7 @@
+a {
+  color: white;
+}
+
 body {
   animation: Moving-gradient 15s infinite linear;
   background: linear-gradient(to bottom left, #1a45a8, #c182c5);
