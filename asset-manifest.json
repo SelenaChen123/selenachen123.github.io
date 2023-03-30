@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.94331237.css",
+    "main.css": "/static/css/main.ac3981e8.css",
     "main.js": "/static/js/main.e01b381f.js",
     "static/media/ncsuinvolvement.png": "/static/media/ncsuinvolvement.885ce1f5069273713464.png",
     "static/media/deathscape.png": "/static/media/deathscape.c20a7af8c3fa53ee9f42.png",
@@ -17,11 +17,11 @@
     "static/media/designingblack.png": "/static/media/designingblack.d327fcd891df80a54abf.png",
     "static/media/liveoakbank.png": "/static/media/liveoakbank.9385b9bc3bfe4692bef6.png",
     "index.html": "/index.html",
-    "main.94331237.css.map": "/static/css/main.94331237.css.map",
+    "main.ac3981e8.css.map": "/static/css/main.ac3981e8.css.map",
     "main.e01b381f.js.map": "/static/js/main.e01b381f.js.map"
   },
   "entrypoints": [
-    "static/css/main.94331237.css",
+    "static/css/main.ac3981e8.css",
     "static/js/main.e01b381f.js"
   ]
 }
