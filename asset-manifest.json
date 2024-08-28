@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac3981e8.css",
-    "main.js": "/static/js/main.e01b381f.js",
+    "main.css": "/static/css/main.16fbd82f.css",
+    "main.js": "/static/js/main.d3b78a97.js",
     "static/media/ncsuinvolvement.png": "/static/media/ncsuinvolvement.885ce1f5069273713464.png",
     "static/media/deathscape.png": "/static/media/deathscape.c20a7af8c3fa53ee9f42.png",
     "static/media/trappedbypirates.png": "/static/media/trappedbypirates.26e3c48164a5970b54e8.png",
@@ -9,6 +9,7 @@
     "static/media/resa.png": "/static/media/resa.e4be8796771357e6a46c.png",
     "static/media/profilepic.png": "/static/media/profilepic.be6bd15a3cb85365fd9e.png",
     "static/media/onewallet.png": "/static/media/onewallet.2788d66ff69427bc5da1.png",
+    "static/media/businessolver.png": "/static/media/businessolver.3c3a7a3de57d8381a2ef.png",
     "static/media/crocheting.png": "/static/media/crocheting.6e4f33e8c8964d44bd35.png",
     "static/media/baking.png": "/static/media/baking.c58ad3c5ec2eea40dfb1.png",
     "static/media/gaming.png": "/static/media/gaming.0c5c1f53c05d15a90277.png",
@@ -17,11 +18,11 @@
     "static/media/designingblack.png": "/static/media/designingblack.d327fcd891df80a54abf.png",
     "static/media/liveoakbank.png": "/static/media/liveoakbank.9385b9bc3bfe4692bef6.png",
     "index.html": "/index.html",
-    "main.ac3981e8.css.map": "/static/css/main.ac3981e8.css.map",
-    "main.e01b381f.js.map": "/static/js/main.e01b381f.js.map"
+    "main.16fbd82f.css.map": "/static/css/main.16fbd82f.css.map",
+    "main.d3b78a97.js.map": "/static/js/main.d3b78a97.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac3981e8.css",
-    "static/js/main.e01b381f.js"
+    "static/css/main.16fbd82f.css",
+    "static/js/main.d3b78a97.js"
   ]
 }
