@@ -1,9 +1,4 @@
-import { FaArrowDown } from "react-icons/fa";
-import { FaArrowUp } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { FiLinkedin } from "react-icons/fi";
-import { FiGithub } from "react-icons/fi";
-import { FiMail } from "react-icons/fi";
+
 import { FaJava } from "react-icons/fa";
 import { SiPython } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
@@ -13,22 +8,43 @@ import { SiCsharp } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
+import { BsFiletypeXml } from "react-icons/bs";
+import { SiPostgresql } from "react-icons/si";
 import { SiAmazonaws } from "react-icons/si";
 import { SiOracle } from "react-icons/si";
 import { SiGooglecloud } from "react-icons/si";
 import { FaSalesforce } from "react-icons/fa";
 import { SiNodedotjs } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { SiJquery } from "react-icons/si";
 import { SiAngularjs } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiDocker } from "react-icons/si";
 import { SiKubernetes } from "react-icons/si";
-import { SiSpring } from "react-icons/si";
-import { SiWebpack } from "react-icons/si";
 import { SiGradle } from "react-icons/si";
-import { SiAdobecreativecloud } from "react-icons/si";
+import { SiSpring } from "react-icons/si";
+import { SiJunit5 } from "react-icons/si";
+import { SiCucumber } from "react-icons/si";
+import { SiSelenium } from "react-icons/si";
+import { SiSplunk } from "react-icons/si";
+import { TbBrandVscode } from "react-icons/tb";
+import { SiIntellijidea } from "react-icons/si";
+import { SiGit } from "react-icons/si";
+import { SiWindows } from "react-icons/si";
+import { SiMacos } from "react-icons/si";
+import { SiLinux } from "react-icons/si";
+import { SiMicrosoftteams } from "react-icons/si";
 import { SiMicrosoftoffice } from "react-icons/si";
+import { SiAdobecreativecloud } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
+import { SiOpenai } from "react-icons/si";
+import { SiAtlassian } from "react-icons/si";
+import { FaArrowDown } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 
 import "./App.css";
 
@@ -39,6 +55,7 @@ import designingblack from "./img/designingblack.png";
 import designingpink from "./img/designingpink.png";
 import journaling from "./img/journaling.png";
 import gaming from "./img/gaming.png";
+import businessolver from "./img/businessolver.png";
 import redhat from "./img/redhat.png";
 import liveoakbank from "./img/liveoakbank.png";
 import researchexchange from "./img/researchexchange.png";
@@ -120,16 +137,18 @@ function App() {
       </div>
       <div id="main" onLoad={navUpdate}>
         <div id="home">
-          <div className="section">
+          <div className="section" id="home-section">
             <div className="center row section-content">
-              <div id="home-photo">
-                <div className="image">
-                  <img src={profilepic} alt="Profile pic"></img>
+              <div className="row wrap">
+                <div id="home-photo">
+                  <div className="image">
+                    <img src={profilepic} alt="Profile pic"></img>
+                  </div>
                 </div>
-              </div>
-              <div id="home-text">
-                <h2>Hi, I'm Selena!</h2>
-                <p>I'm a currently a Master of Computer Science student at North Carolina State University.</p>
+                <div id="home-text">
+                  <h2>Hi, I'm Selena!</h2>
+                  <p>I'm a Software Engineer at Businessolver.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -139,7 +158,7 @@ function App() {
             <div className="center row section-content">
               <div id="about-text">
                 <h2>About Me</h2>
-                <p>I'm a full-stack software developer who prides herself in being a perfectionist and making things look nice. I'm also a creative at heart and have a passion for making all sorts of cool things.</p>
+                <p>I'm a full-stack software engineer who genuinely loves both the process and the outcome of making useful things. I recently graduated with my Master of Computer Science degree in May 2023 from North Carolina State University and am currently working as a Software Engineer at Businessolver.</p>
                 <p>Some of my hobbies include baking, cooking, crocheting, designing, journaling, and gaming.</p>
               </div>
               <div id="about-photos">
@@ -186,6 +205,26 @@ function App() {
               <div className="row">
                 <div className="experience-logo">
                   <div className="image">
+                    <img src={businessolver} alt="Businessolver" className="round-corners"></img>
+                  </div>
+                </div>
+                <div className="experience-text">
+                  <h3>Businessolver</h3>
+                  <h4>June 2023 - Present</h4>
+                  <ul>
+                    <li>Take ownership of the team's domain,regularly providing guidance and support to team members and other teams to promote cross-team collaboration and knowledge sharing</li>
+                    <li>Design and implement core Java application changes to achieve business goals and improve code quality</li>
+                    <li>Proactively engage in troubleshooting, debugging, and resolving pre-production and live production issues across the team's domain areas to prevent critical bugs and ensure system reliability</li>
+                    <li>Maintain operational processes such as fixing GitLab pipeline failures, initiating deployment processes, and updating AWS infrastructure to promote smoother development workflows and reduce downtime</li>
+                    <li>Curate technical resources such as Postman collections, Python utility repositories, and Confluence documentation to streamline development processes and support team productivity</li>
+                    <li>Refined all of the Splunk dashboards and alerts for the team to debug production issues and reduce noise in the team's monitoring and alerting on application errors, infrastructure load, and database usage</li>
+                    <li>Created 46 out of the 72 modular Jira Xray tests for the team's domain areas to improve quality assurance and reduce onboarding time for new team members</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="row">
+                <div className="experience-logo">
+                  <div className="image">
                     <img src={redhat} alt="Red Hat" className="round-corners"></img>
                   </div>
                 </div>
@@ -225,7 +264,7 @@ function App() {
             <div className="center row section-content">
               <div>
                 <center><h2>Skills & Tools</h2></center>
-                <p>As a curious engineer who genuinely enjoys learning new things and creating cool things, I've picked up a bunch of skills in nearly every software engineering field. Some of these fields including cloud architecture, computer graphics, data science, DevOps, game development, graphic design, machine learning, project management, quality assurance, and web development.</p>
+                <p>As a curious engineer who genuinely enjoys learning new things and creating cool things, I've picked up a bunch of skills in nearly every software engineering field. Some of these fields including cloud architecture, computer graphics, data science, database management, DevOps, game development, graphic design, machine learning, project management, quality assurance, and web development.</p>
                 <p>Some of the tools that I use include:</p>
                 <div className="center row wrap" id="skills-icons">
                   <div>
@@ -302,9 +341,17 @@ function App() {
                   </div>
                   <div>
                     <div className="skills-icon">
-                      <SiMysql size={100} />
+                      <BsFiletypeXml size={100} />
                       <div className="skills-icon-glow">
-                        <center><h3>MySQL</h3></center>
+                        <center><h3>XML</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiPostgresql size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>PostgreSQL</h3></center>
                       </div>
                     </div>
                   </div>
@@ -358,6 +405,14 @@ function App() {
                   </div>
                   <div>
                     <div className="skills-icon">
+                      <SiJquery size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>jQuery</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
                       <SiAngularjs size={100} />
                       <div className="skills-icon-glow">
                         <center><h3>AngularJS</h3></center>
@@ -390,6 +445,14 @@ function App() {
                   </div>
                   <div>
                     <div className="skills-icon">
+                      <SiGradle size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Gradle</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
                       <SiSpring size={100} />
                       <div className="skills-icon-glow">
                         <center><h3>Spring Boot</h3></center>
@@ -398,17 +461,105 @@ function App() {
                   </div>
                   <div>
                     <div className="skills-icon">
-                      <SiWebpack size={100} />
+                      <SiJunit5 size={100} />
                       <div className="skills-icon-glow">
-                        <center><h3>Webpack</h3></center>
+                        <center><h3>JUnit</h3></center>
                       </div>
                     </div>
                   </div>
                   <div>
                     <div className="skills-icon">
-                      <SiGradle size={100} />
+                      <SiCucumber size={100} />
                       <div className="skills-icon-glow">
-                        <center><h3>Gradle</h3></center>
+                        <center><h3>Cucumber</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiSelenium size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Selenium</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiSplunk size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Splunk</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <TbBrandVscode size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>VS Code</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiIntellijidea size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>IntelliJ</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiGit size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Git</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiWindows size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Windows</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiMacos size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>macOS</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiLinux size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Linux</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiMicrosoftteams size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Microsoft Teams</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiMicrosoftoffice size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Microsoft Office</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiFigma size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Figma</h3></center>
                       </div>
                     </div>
                   </div>
@@ -422,9 +573,17 @@ function App() {
                   </div>
                   <div>
                     <div className="skills-icon">
-                      <SiMicrosoftoffice size={100} />
+                      <SiOpenai size={100} />
                       <div className="skills-icon-glow">
-                        <center><h3>Microsoft Office</h3></center>
+                        <center><h3>OpenAI</h3></center>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="skills-icon">
+                      <SiAtlassian size={100} />
+                      <div className="skills-icon-glow">
+                        <center><h3>Atlassian</h3></center>
                       </div>
                     </div>
                   </div>

@@ -125,7 +125,7 @@ p {
 }
 
 .scroll-icon {
-  padding-left: calc(80vw + min(75px, 7vw));
+  padding-left: 83vw;
   padding-right: 14px;
   padding-top: 5px;
 }
@@ -142,8 +142,12 @@ p {
 }
 
 .section-content {
-  min-height: calc(100vh - 195px);
+  min-height: 70vh;
   position: relative;
+}
+
+#home-section {
+  margin-top: 7vh;
 }
 
 .skills-icon {
@@ -222,7 +226,7 @@ p {
 }
 
 #home-text {
-  width: min(60%, 30vw);
+  padding-top: 8%;
 }
 
 #main {
