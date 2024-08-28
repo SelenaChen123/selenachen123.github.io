@@ -212,7 +212,7 @@ function App() {
                   <h3>Businessolver</h3>
                   <h4>June 2023 - Present</h4>
                   <ul>
-                    <li>Take ownership of the team's domain,regularly providing guidance and support to team members and other teams to promote cross-team collaboration and knowledge sharing</li>
+                    <li>Take ownership of the team's domain, regularly providing guidance and support to team members and other teams to promote cross-team collaboration and knowledge sharing</li>
                     <li>Design and implement core Java application changes to achieve business goals and improve code quality</li>
                     <li>Proactively engage in troubleshooting, debugging, and resolving pre-production and live production issues across the team's domain areas to prevent critical bugs and ensure system reliability</li>
                     <li>Maintain operational processes such as fixing GitLab pipeline failures, initiating deployment processes, and updating AWS infrastructure to promote smoother development workflows and reduce downtime</li>
