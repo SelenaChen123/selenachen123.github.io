@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.16fbd82f.css",
-    "main.js": "/static/js/main.d3b78a97.js",
+    "main.js": "/static/js/main.e001abc4.js",
     "static/media/ncsuinvolvement.png": "/static/media/ncsuinvolvement.885ce1f5069273713464.png",
     "static/media/deathscape.png": "/static/media/deathscape.c20a7af8c3fa53ee9f42.png",
     "static/media/trappedbypirates.png": "/static/media/trappedbypirates.26e3c48164a5970b54e8.png",
@@ -19,10 +19,10 @@
     "static/media/liveoakbank.png": "/static/media/liveoakbank.9385b9bc3bfe4692bef6.png",
     "index.html": "/index.html",
     "main.16fbd82f.css.map": "/static/css/main.16fbd82f.css.map",
-    "main.d3b78a97.js.map": "/static/js/main.d3b78a97.js.map"
+    "main.e001abc4.js.map": "/static/js/main.e001abc4.js.map"
   },
   "entrypoints": [
     "static/css/main.16fbd82f.css",
-    "static/js/main.d3b78a97.js"
+    "static/js/main.e001abc4.js"
   ]
 }
